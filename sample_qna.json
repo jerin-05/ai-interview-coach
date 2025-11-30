@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Tell me about a time you had to work under pressure.",
+    "answer": "I led a tight-deadline feature and delivered on time by prioritizing tasks and communicating with stakeholders. It improved delivery by 20%.",
+    "human_score": 8.0
+  },
+  {
+    "question": "How would you optimize a slow SQL query?",
+    "answer": "I would add indexes, avoid SELECT *, and check query plans. In one case indexes reduced runtime by 60%.",
+    "human_score": 9.0
+  }
+]

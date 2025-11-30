@@ -1,0 +1,28 @@
+# tools/openapi_job_lookup.yaml
+openapi: "3.0.0"
+info:
+  title: Job Title Lookup API (sample)
+  version: "1.0.0"
+paths:
+  /jobtitle:
+    get:
+      summary: Lookup canonical job titles for a user-provided title
+      parameters:
+        - in: query
+          name: q
+          schema:
+            type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  canonical:
+                    type: string
+                  variants:
+                    type: array
+                    items:
+                      type: string
